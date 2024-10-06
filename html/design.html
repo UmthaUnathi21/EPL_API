@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Design Process</title>
+        <meta name="description" content="Discover the design process behind the ESPN Clone website, including chart designs and mockups for the English Premier League visualizations.">
+        <meta name="keywords" content="design process, mockups, chart design, D3.js, sports visualization">
+        <meta name="author" content="Umtha-Unathi Mavuso">
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>    
+<body>
+    <header>
+        <div class="espn-header">
+            <img src="../logos/espn-logo.png" alt="ESPN Logo" class="espn-logo">
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/efl.html">EFL</a></li>
+                    <li><a href="../html/design.html">Design</a></li>
+                    <li><a href="../html/predictor.html">Predictor</a></li>
+                    <li><a href="../html/about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="design-title">Design and Mockups</h2>
+        <h3>Critical Consideration of Strengths and Weaknesses</h3>
+        <h2>Strengths:</h2>
+        
+        <h3>Contrast</h3>
+            
+        <p>Application: The use of contrasting colors in the navigation bar and buttons enhances visibility and directs user attention to important elements. The contrast between text and background makes the content easier to read.</p>
+        <p>Theory Relation: According to the principles of contrast in design, using differing colors can effectively guide users through the interface. This approach helps in prioritizing information and improving the overall user experience.</p>
+            
+        <h3>Negative Space</h3>
+            
+        <p>Application: The effective use of negative space around images, buttons, and sections allows users to focus on specific content without feeling overwhelmed. This is particularly useful in the header and footer, where the content is distinct and easily navigable.</p>
+        <p>Theory Relation: The theory of negative space suggests that the space around and between elements can be just as important as the elements themselves. By applying this principle, the design achieves a clean and organized appearance, making the interface more user-friendly.</p>
+            
+        <h3>Font Choice and Hierarchy</h3>
+            
+        <p>Application: The selection of fonts that complement the overall theme of sports and analytics contributes to the brand identity. The use of different font sizes and weights helps establish a clear hierarchy of information, guiding users from headings to subheadings and body text.</p>
+        <p>Theory Relation: Effective typography is essential in web design as it influences readability and user engagement. By following typographic principles, the website creates a visually appealing layout that enhances the comprehension of information.</p>
+            
+        <h3>Information Layout</h3>
+            
+        <p>Application: The layout of information is logical and intuitive, with sections clearly delineated. Users can easily navigate through different pages, and the arrangement of data tables and visualizations facilitates quick understanding of statistics.
+        <p>Theory Relation: Information architecture theory emphasizes the importance of organizing content logically. The site's layout follows this principle, making it straightforward for users to find and interact with desired information.
+            
+        <h3>Interactivity</h3>
+            
+        <p>Application: The implementation of interactive elements, such as scatter plots and data visualizations using D3.js, engages users and provides an immersive experience. Hover effects and tooltips enhance user interaction by providing additional context.</p>
+        <p>Theory Relation: The concept of interactivity in web design posits that user engagement can be significantly improved through dynamic content. This aligns with contemporary expectations of interactive media, where users seek to actively participate in their digital experiences.</p>
+            
+        <h2>Weaknesses:</h2>
+        <p>Over-Reliance on Contrast</p>
+            
+        <p>Issue: While contrast can improve readability, over-reliance on bright colors may lead to visual strain for some users, especially those with certain visual impairments.</p>
+        <p>Theory Relation: The principle of accessibility in design emphasizes the need for inclusivity. It is crucial to ensure that color choices meet accessibility standards (like WCAG) to accommodate users with different abilities.</p>
+            
+        
+        <h3>Insufficient Negative Space in Certain Areas</h3>
+            
+        <p>Issue: In some sections, particularly within the EPL data table, the lack of adequate negative space can lead to a cramped appearance, making it challenging for users to process information quickly.</p>
+        <p>Theory Relation: Negative space theory suggests that cluttered designs can overwhelm users, leading to cognitive overload. Ensuring adequate spacing can improve usability and information retention.</p>
+            
+        <h3>Font Legibility</h3>
+            
+       <p>Issue: Some of my font choices may not be optimal for all devices, particularly on smaller screens because of the small size of the text rendered. Users might struggle to read smaller text sizes, especially if not adequately contrasted with the background.</p>
+       <p>Theory Relation: The principles of typography emphasize that legibility is vital for effective communication. Adopting responsive typography can ensure that text remains legible across various screen sizes.</p>
+            
+       <h3>Information Overload</h3>
+            
+       <p>Issue: While the layout effectively organizes information, there might be instances of information overload, particularly on the predictor page. Users may feel overwhelmed by the number of statistics presented without sufficient contextual guidance.</p>
+       <p>Theory Relation: Information overload theory highlights the challenges users face when presented with excessive data. Implementing progressive disclosure, where information is revealed in stages, can enhance user comprehension.</p>
+            
+       <h3>Interactivity Limitations</h3>
+            
+        <p>Issue: The interactive elements may not be fully optimized for all devices, especially mobile. Users on touch devices may find it challenging to engage with small interactive elements.</p>
+        <p>Theory Relation: The theory of responsive design underscores the importance of ensuring that interactive features function seamlessly across all devices. Improving the touch target sizes and implementing mobile-friendly interactions can enhance accessibility.</p>
+
+        <!-- Chart Design Section -->
+        <section class="chart-description">
+            <h3>Chart Design</h3>
+            <p>The scatter plot on the EFL page was created using the D3.js library. CSS was used to style the chart, tooltips, and different sections (elite, middle, and poor). JavaScript was responsible for fetching the EPL data and dynamically generating the plot.</p>
+            
+            <!-- Add uploaded chart mockup image -->
+            <img src="../images/ChartMockUP.png" alt="Chart Mockup" class="chart-image">
+            <p>Description: This is a mockup for the chart layout, visualizing teams' wins vs. performance in the 2022-23 season.</p>
+        </section>
+
+        <!-- Design Mockup Section -->
+        <section class="design-section">
+            <h3>Design Mockup</h3>
+            <img src="../images/Design MockUp.png" alt="Design Mockup" class="design-mockup">
+            <p>Description: A comprehensive design mockup showing how different EPL visualizations and graphs can be arranged for a dynamic user interface.</p>
+        </section>
+
+        <!-- EPL Table Section -->
+        <section class="epl-table-section">
+            <h3>Premier League Table</h3>
+            <img src="../images/EPL_Table.png" alt="EPL Table" class="epl-table">
+            <p>Description: The current standings of the English Premier League for the 2022-23 season.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ESPN Clone. All rights reserved. Authored by Umtha-Unathi Mavuso</p>
+    </footer>
+</body>
+</html>
